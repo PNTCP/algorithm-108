@@ -5,6 +5,6 @@ public class ex4{
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Please Enter Num1: ");
-        double num1 = scanner.nextDouble();
+        double num1 = scanner.nextDouble();//
     }
 }
