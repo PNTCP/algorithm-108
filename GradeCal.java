@@ -16,8 +16,9 @@ public class GradeCal {
         System.out.println("Name: " + name);
         System.out.println("Score: " + score);
 
-
-        if (score >= 80) {
+        if(score < 0 || score > 100){
+            System.out.println("Wrong Score");
+        }else if (score >= 80) {
             System.out.println("Grade: A");
         } else if (score >= 70 ) {
             System.out.println("Grade: B");
